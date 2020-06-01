@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-06-01T09:32:21.985Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="8P1ZcVcjIJ9IO651Brn4" version="13.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-01T10:49:52.402Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="c5Gey6_24aXmwdjFqe4m" version="13.1.11" type="github">
   <diagram id="s6GvzhyZXyXigpIVoT9W" name="Page-1">
-    <mxGraphModel dx="1033" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1033" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -66,7 +66,7 @@
             <mxPoint x="680" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MGwzuce8domgcDsSt-gz-14" value="看见预播" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MGwzuce8domgcDsSt-gz-13" vertex="1" connectable="0">
+        <mxCell id="MGwzuce8domgcDsSt-gz-14" value="预告列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MGwzuce8domgcDsSt-gz-13" vertex="1" connectable="0">
           <mxGeometry x="0.1966" y="1" relative="1" as="geometry">
             <mxPoint x="11.72" as="offset" />
           </mxGeometry>
@@ -388,7 +388,7 @@
           <mxGeometry x="220" y="2020" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uTEVjcQig3NefoLJEGve-19" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="190" width="20" height="80" as="geometry" />
+          <mxGeometry x="280" y="180" width="20" height="90" as="geometry" />
         </mxCell>
         <mxCell id="uTEVjcQig3NefoLJEGve-20" value="创建、查看预直播" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="220" width="110" height="20" as="geometry" />
@@ -853,6 +853,50 @@
         <mxCell id="uTEVjcQig3NefoLJEGve-122" value="权限校验" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTEVjcQig3NefoLJEGve-118">
           <mxGeometry x="-0.2727" y="12" relative="1" as="geometry">
             <mxPoint x="-12" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-126" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="180" as="sourcePoint" />
+            <mxPoint x="440" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-127" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;获取预播列表&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTEVjcQig3NefoLJEGve-126">
+          <mxGeometry x="-0.3115" y="1" relative="1" as="geometry">
+            <mxPoint x="18.62" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-128" value="" style="endArrow=classic;html=1;strokeWidth=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="470" as="sourcePoint" />
+            <mxPoint x="680" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-129" value="截图回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTEVjcQig3NefoLJEGve-128">
+          <mxGeometry x="-0.2364" y="-1" relative="1" as="geometry">
+            <mxPoint x="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-130" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="224.5" as="sourcePoint" />
+            <mxPoint x="680" y="224.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-131" value="预告详情" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTEVjcQig3NefoLJEGve-130">
+          <mxGeometry x="0.1966" y="1" relative="1" as="geometry">
+            <mxPoint x="11.72" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-132" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="240" as="sourcePoint" />
+            <mxPoint x="680" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-133" value="关注" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTEVjcQig3NefoLJEGve-132">
+          <mxGeometry x="0.1966" y="1" relative="1" as="geometry">
+            <mxPoint x="11.72" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
