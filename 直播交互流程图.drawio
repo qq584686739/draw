@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-01T07:37:06.532Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="iFgJUNZzOxrG9XUAyWrH" version="13.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-01T08:27:35.303Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="A0j0gyKI3W3rPHb0seKK" version="13.1.11" type="github">
   <diagram id="s6GvzhyZXyXigpIVoT9W" name="Page-1">
     <mxGraphModel dx="1033" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6,19 +6,19 @@
         <mxCell id="1" parent="0" />
         <mxCell id="MGwzuce8domgcDsSt-gz-1" value="" style="endArrow=none;html=1;strokeWidth=3;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="1520" as="sourcePoint" />
+            <mxPoint x="320" y="1800" as="sourcePoint" />
             <mxPoint x="320" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-2" value="" style="endArrow=none;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;strokeWidth=5;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="1520" as="sourcePoint" />
+            <mxPoint x="440" y="1800" as="sourcePoint" />
             <mxPoint x="440" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-3" value="" style="endArrow=none;html=1;fillColor=#e51400;strokeColor=#B20000;strokeWidth=5;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="1520.9090576171875" as="sourcePoint" />
+            <mxPoint x="560" y="1800" as="sourcePoint" />
             <mxPoint x="560" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -44,13 +44,13 @@
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-9" value="" style="endArrow=none;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;strokeWidth=5;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="680" y="1520.9090576171875" as="sourcePoint" />
+            <mxPoint x="680" y="1800" as="sourcePoint" />
             <mxPoint x="680" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-10" value="" style="endArrow=none;html=1;strokeWidth=3;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="800" y="1521.8182373046875" as="sourcePoint" />
+            <mxPoint x="800" y="1800" as="sourcePoint" />
             <mxPoint x="800" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -154,8 +154,8 @@
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-29" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="800" y="551" as="sourcePoint" />
-            <mxPoint x="680" y="551" as="targetPoint" />
+            <mxPoint x="800" y="530" as="sourcePoint" />
+            <mxPoint x="680" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-30" value="获取直播源列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MGwzuce8domgcDsSt-gz-29" vertex="1" connectable="0">
@@ -165,8 +165,8 @@
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-31" value="" style="endArrow=classic;html=1;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="450" as="sourcePoint" />
-            <mxPoint x="680" y="450" as="targetPoint" />
+            <mxPoint x="560" y="440" as="sourcePoint" />
+            <mxPoint x="680" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-32" value="推流回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MGwzuce8domgcDsSt-gz-31" vertex="1" connectable="0">
@@ -176,11 +176,11 @@
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-33" value="" style="endArrow=classic;html=1;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="680" y="460" as="sourcePoint" />
-            <mxPoint x="680" y="480" as="targetPoint" />
+            <mxPoint x="680" y="440" as="sourcePoint" />
+            <mxPoint x="680" y="460" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="700" y="440" />
               <mxPoint x="700" y="460" />
-              <mxPoint x="700" y="480" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -191,8 +191,8 @@
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-35" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="800" y="571" as="sourcePoint" />
-            <mxPoint x="560" y="571" as="targetPoint" />
+            <mxPoint x="800" y="550" as="sourcePoint" />
+            <mxPoint x="560" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-36" value="开始拉流" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MGwzuce8domgcDsSt-gz-35" vertex="1" connectable="0">
@@ -202,8 +202,8 @@
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-37" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="800" y="591" as="sourcePoint" />
-            <mxPoint x="560" y="591" as="targetPoint" />
+            <mxPoint x="800" y="632" as="sourcePoint" />
+            <mxPoint x="560" y="632" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-38" value="发送弹幕" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MGwzuce8domgcDsSt-gz-37" vertex="1" connectable="0">
@@ -213,8 +213,8 @@
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-39" value="" style="endArrow=classic;html=1;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="611" as="sourcePoint" />
-            <mxPoint x="320" y="611" as="targetPoint" />
+            <mxPoint x="560" y="652" as="sourcePoint" />
+            <mxPoint x="320" y="652" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-40" value="下发弹幕" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MGwzuce8domgcDsSt-gz-39" vertex="1" connectable="0">
@@ -224,8 +224,8 @@
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-41" value="" style="endArrow=classic;html=1;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="621" as="sourcePoint" />
-            <mxPoint x="800" y="621" as="targetPoint" />
+            <mxPoint x="560" y="662" as="sourcePoint" />
+            <mxPoint x="800" y="662" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-42" value="下发弹幕" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MGwzuce8domgcDsSt-gz-41" vertex="1" connectable="0">
@@ -244,14 +244,14 @@
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-45" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="1120" as="sourcePoint" />
-            <mxPoint x="560" y="1120" as="targetPoint" />
+            <mxPoint x="320" y="1420" as="sourcePoint" />
+            <mxPoint x="560" y="1420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-46" value="" style="endArrow=classic;html=1;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="1140" as="sourcePoint" />
-            <mxPoint x="440" y="1140" as="targetPoint" />
+            <mxPoint x="560" y="1440" as="sourcePoint" />
+            <mxPoint x="440" y="1440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-47" value="断流回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MGwzuce8domgcDsSt-gz-46" vertex="1" connectable="0">
@@ -261,8 +261,8 @@
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-48" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="1230" as="sourcePoint" />
-            <mxPoint x="320" y="1230" as="targetPoint" />
+            <mxPoint x="560" y="1530" as="sourcePoint" />
+            <mxPoint x="320" y="1530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-49" value="断流" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MGwzuce8domgcDsSt-gz-48" vertex="1" connectable="0">
@@ -272,8 +272,8 @@
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-50" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="1240" as="sourcePoint" />
-            <mxPoint x="800" y="1240" as="targetPoint" />
+            <mxPoint x="560" y="1540" as="sourcePoint" />
+            <mxPoint x="800" y="1540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-51" value="断流" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MGwzuce8domgcDsSt-gz-50" vertex="1" connectable="0">
@@ -282,18 +282,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-52" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="1120" width="20" height="150" as="geometry" />
+          <mxGeometry x="280" y="1420" width="20" height="150" as="geometry" />
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-53" value="结束直播" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="1185" width="60" height="20" as="geometry" />
+          <mxGeometry x="220" y="1485" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-54" value="" style="endArrow=classic;html=1;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="1160" as="sourcePoint" />
-            <mxPoint x="440" y="1200" as="targetPoint" />
+            <mxPoint x="440" y="1460" as="sourcePoint" />
+            <mxPoint x="440" y="1500" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="480" y="1160" />
-              <mxPoint x="480" y="1200" />
+              <mxPoint x="480" y="1460" />
+              <mxPoint x="480" y="1500" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -304,8 +304,8 @@
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-56" value="" style="endArrow=classic;html=1;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="651" as="sourcePoint" />
-            <mxPoint x="680" y="651" as="targetPoint" />
+            <mxPoint x="560" y="692" as="sourcePoint" />
+            <mxPoint x="680" y="692" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-57" value="弹幕回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MGwzuce8domgcDsSt-gz-56" vertex="1" connectable="0">
@@ -315,18 +315,18 @@
         </mxCell>
         <mxCell id="MGwzuce8domgcDsSt-gz-58" value="" style="endArrow=classic;html=1;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="680" y="661" as="sourcePoint" />
-            <mxPoint x="680" y="671" as="targetPoint" />
+            <mxPoint x="680" y="696" as="sourcePoint" />
+            <mxPoint x="680" y="706" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="710" y="661" />
-              <mxPoint x="710" y="671" />
+              <mxPoint x="710" y="696" />
+              <mxPoint x="710" y="706" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="uTEVjcQig3NefoLJEGve-3" value="" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="1256" as="sourcePoint" />
-            <mxPoint x="440" y="1256" as="targetPoint" />
+            <mxPoint x="560" y="1556" as="sourcePoint" />
+            <mxPoint x="440" y="1556" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uTEVjcQig3NefoLJEGve-4" value="录播回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTEVjcQig3NefoLJEGve-3">
@@ -336,45 +336,65 @@
         </mxCell>
         <mxCell id="uTEVjcQig3NefoLJEGve-6" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="1400" as="sourcePoint" />
-            <mxPoint x="440" y="1400" as="targetPoint" />
+            <mxPoint x="320" y="1700" as="sourcePoint" />
+            <mxPoint x="440" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-45" value="查看录播列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTEVjcQig3NefoLJEGve-6">
+          <mxGeometry x="-0.4076" y="2" relative="1" as="geometry">
+            <mxPoint x="24" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uTEVjcQig3NefoLJEGve-9" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="1420" as="sourcePoint" />
-            <mxPoint x="320" y="1420" as="targetPoint" />
+            <mxPoint x="440" y="1720" as="sourcePoint" />
+            <mxPoint x="320" y="1720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uTEVjcQig3NefoLJEGve-10" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="800" y="1400" as="sourcePoint" />
-            <mxPoint x="680" y="1400" as="targetPoint" />
+            <mxPoint x="800" y="1700" as="sourcePoint" />
+            <mxPoint x="680" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-46" value="查看录播列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTEVjcQig3NefoLJEGve-10">
+          <mxGeometry x="0.2909" y="-1" relative="1" as="geometry">
+            <mxPoint x="17" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uTEVjcQig3NefoLJEGve-11" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="680" y="1420" as="sourcePoint" />
-            <mxPoint x="800" y="1420" as="targetPoint" />
+            <mxPoint x="680" y="1720" as="sourcePoint" />
+            <mxPoint x="800" y="1720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uTEVjcQig3NefoLJEGve-15" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="1440" as="sourcePoint" />
-            <mxPoint x="560" y="1440" as="targetPoint" />
+            <mxPoint x="320" y="1740" as="sourcePoint" />
+            <mxPoint x="560" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-47" value="查看录播" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTEVjcQig3NefoLJEGve-15">
+          <mxGeometry x="-0.2538" relative="1" as="geometry">
+            <mxPoint x="70" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uTEVjcQig3NefoLJEGve-16" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="800" y="1440" as="sourcePoint" />
-            <mxPoint x="560" y="1440" as="targetPoint" />
+            <mxPoint x="800" y="1740" as="sourcePoint" />
+            <mxPoint x="560" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-48" value="查看录播" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTEVjcQig3NefoLJEGve-16">
+          <mxGeometry x="0.6205" y="1" relative="1" as="geometry">
+            <mxPoint x="24" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uTEVjcQig3NefoLJEGve-17" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="1390" width="20" height="60" as="geometry" />
+          <mxGeometry x="280" y="1690" width="20" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uTEVjcQig3NefoLJEGve-18" value="查看录播" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="1410" width="60" height="20" as="geometry" />
+          <mxGeometry x="220" y="1710" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uTEVjcQig3NefoLJEGve-19" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="190" width="20" height="80" as="geometry" />
@@ -383,46 +403,34 @@
           <mxGeometry x="170" y="220" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uTEVjcQig3NefoLJEGve-21" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="520" width="20" height="160" as="geometry" />
+          <mxGeometry x="280" y="520" width="20" height="200" as="geometry" />
         </mxCell>
         <mxCell id="uTEVjcQig3NefoLJEGve-22" value="看直播、发弹幕" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="175" y="590" width="100" height="20" as="geometry" />
+          <mxGeometry x="180" y="610" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uTEVjcQig3NefoLJEGve-23" value="" style="curved=1;endArrow=classic;html=1;strokeWidth=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="uTEVjcQig3NefoLJEGve-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="700" y="670" as="sourcePoint" />
-            <mxPoint x="1200" y="630" as="targetPoint" />
+            <mxPoint x="700" y="701" as="sourcePoint" />
+            <mxPoint x="1200" y="671" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1130" y="710" />
-              <mxPoint x="910" y="620" />
-              <mxPoint x="1060" y="620" />
+              <mxPoint x="1130" y="751" />
+              <mxPoint x="910" y="661" />
+              <mxPoint x="1060" y="661" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="uTEVjcQig3NefoLJEGve-24" value="后台用来做数据统计，如直播热度、弹幕数统计等。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="620" width="120" height="80" as="geometry" />
+          <mxGeometry x="1130" y="661" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uTEVjcQig3NefoLJEGve-27" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="800" as="sourcePoint" />
-            <mxPoint x="440" y="800" as="targetPoint" />
+            <mxPoint x="320" y="820" as="sourcePoint" />
+            <mxPoint x="440" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uTEVjcQig3NefoLJEGve-31" value="查看观众列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTEVjcQig3NefoLJEGve-27">
           <mxGeometry x="-0.4909" y="2" relative="1" as="geometry">
             <mxPoint x="29" y="2" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uTEVjcQig3NefoLJEGve-28" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="810" as="sourcePoint" />
-            <mxPoint x="560" y="810" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uTEVjcQig3NefoLJEGve-29" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="820" as="sourcePoint" />
-            <mxPoint x="440" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uTEVjcQig3NefoLJEGve-30" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
@@ -442,8 +450,233 @@
             <mxPoint x="19" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uTEVjcQig3NefoLJEGve-34" value="300以上只支持获取300忍一下的" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="750" width="90" height="60" as="geometry" />
+        <mxCell id="uTEVjcQig3NefoLJEGve-35" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="444" y="850" as="sourcePoint" />
+            <mxPoint x="444" y="870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="464" y="850" />
+              <mxPoint x="464" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-36" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="870" as="sourcePoint" />
+            <mxPoint x="320" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-37" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="882" as="sourcePoint" />
+            <mxPoint x="680" y="882" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-38" value="查看观众列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTEVjcQig3NefoLJEGve-37">
+          <mxGeometry x="0.3409" y="-2" relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-39" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="892" as="sourcePoint" />
+            <mxPoint x="680" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="892" />
+              <mxPoint x="700" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-56" value="身份校验" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTEVjcQig3NefoLJEGve-39">
+          <mxGeometry x="-0.0454" y="-1" relative="1" as="geometry">
+            <mxPoint x="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-40" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="950" as="sourcePoint" />
+            <mxPoint x="680" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-41" value="禁止A用户发言" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTEVjcQig3NefoLJEGve-40">
+          <mxGeometry x="0.3909" relative="1" as="geometry">
+            <mxPoint x="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-42" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="960" as="sourcePoint" />
+            <mxPoint x="560" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-43" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="970" as="sourcePoint" />
+            <mxPoint x="680" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-44" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="980" as="sourcePoint" />
+            <mxPoint x="800" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-49" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="570" as="sourcePoint" />
+            <mxPoint x="560" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-50" value="进入直播间" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTEVjcQig3NefoLJEGve-49">
+          <mxGeometry x="-0.2983" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-52" value="" style="endArrow=classic;html=1;strokeWidth=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="590" as="sourcePoint" />
+            <mxPoint x="680" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-53" value="群员增量回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTEVjcQig3NefoLJEGve-52">
+          <mxGeometry x="-0.3212" y="1" relative="1" as="geometry">
+            <mxPoint x="19" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-54" value="" style="endArrow=classic;html=1;dashed=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="590" as="sourcePoint" />
+            <mxPoint x="680" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="590" />
+              <mxPoint x="700" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-57" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="930" as="sourcePoint" />
+            <mxPoint x="800" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-58" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="1019" as="sourcePoint" />
+            <mxPoint x="560" y="1019" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-59" value="A用户发送弹幕失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTEVjcQig3NefoLJEGve-58">
+          <mxGeometry x="-0.1447" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-60" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="820" width="20" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-61" value="管理员" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="955" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-62" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="1241" as="sourcePoint" />
+            <mxPoint x="680" y="1241" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-63" value="关注主播" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTEVjcQig3NefoLJEGve-62">
+          <mxGeometry x="0.2439" y="-1" relative="1" as="geometry">
+            <mxPoint x="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-64" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="1241" as="sourcePoint" />
+            <mxPoint x="680" y="1271" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="1241" />
+              <mxPoint x="640" y="1271" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-65" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="1281" as="sourcePoint" />
+            <mxPoint x="800" y="1281" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-66" value="" style="endArrow=classic;html=1;strokeWidth=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="270" as="sourcePoint" />
+            <mxPoint x="800" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-67" value="对关注了&lt;br&gt;主播的用&lt;br&gt;户开播提&lt;br&gt;醒" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTEVjcQig3NefoLJEGve-66">
+          <mxGeometry x="-0.4106" relative="1" as="geometry">
+            <mxPoint x="25" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-68" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="1060" as="sourcePoint" />
+            <mxPoint x="440" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-69" value="查看禁言&lt;br&gt;用户列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTEVjcQig3NefoLJEGve-68">
+          <mxGeometry x="-0.2439" y="-2" relative="1" as="geometry">
+            <mxPoint x="15" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-70" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1100" as="sourcePoint" />
+            <mxPoint x="320" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-71" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="1060" as="sourcePoint" />
+            <mxPoint x="680" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-72" value="查看禁言&lt;br&gt;用户列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTEVjcQig3NefoLJEGve-71">
+          <mxGeometry x="0.2439" relative="1" as="geometry">
+            <mxPoint x="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-73" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="1070" as="sourcePoint" />
+            <mxPoint x="680" y="1100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="1070" />
+              <mxPoint x="650" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-74" value="权限校验" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTEVjcQig3NefoLJEGve-73">
+          <mxGeometry x="-0.3333" y="12" relative="1" as="geometry">
+            <mxPoint x="-14" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-75" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="1100" as="sourcePoint" />
+            <mxPoint x="800" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-76" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1070" as="sourcePoint" />
+            <mxPoint x="440" y="1100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="1070" />
+              <mxPoint x="470" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-77" value="权限校验" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTEVjcQig3NefoLJEGve-76">
+          <mxGeometry x="-0.0181" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
