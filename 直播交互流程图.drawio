@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-02T01:50:16.811Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="YiU3JC5fmxZXwbsfrCkw" version="13.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-02T01:59:31.993Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="kyo-fuQJjLl74Eg6HF9i" version="13.1.11" type="github">
   <diagram id="s6GvzhyZXyXigpIVoT9W" name="Page-1">
     <mxGraphModel dx="1033" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -943,6 +943,9 @@
         </mxCell>
         <mxCell id="uTEVjcQig3NefoLJEGve-144" value="退出直播" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="2090" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uTEVjcQig3NefoLJEGve-145" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;opacity=50;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="170" y="805" width="730" height="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
