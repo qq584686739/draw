@@ -1,40 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2020-06-03T08:24:46.501Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="2QZmWx5rDkKwK9Y-xEhv" version="13.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-04T02:10:49.023Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="Wc0kBdtIMoTxqQGjDagA" version="13.1.11" type="github">
   <diagram id="NYbHi9VWummK1k-Ksz4C" name="Page-1">
-    <mxGraphModel dx="2687" dy="1718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2687" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-181" value="BroadcastsConfig直播间配置表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-181" value="broadcastRooms直播间" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-280" y="-80" width="430" height="286" as="geometry" />
         </mxCell>
         <mxCell id="_Sg_oN3kfxwypQQNNQwl-182" value="+ id: long                            直播间id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-181">
           <mxGeometry y="26" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-201" value="+ userId: long                     直播用户id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-181">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-201" value="+ userId: long                   用户id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-181">
           <mxGeometry y="52" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-186" value="+ role: string                       身份(patient、doctor)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-181">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-187" value="+ status: int                        0无效，1有效" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-181">
           <mxGeometry y="78" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-187" value="+ status: int                        0无效，1有效" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-181">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-189" value="+ groupId: long                   IM群组ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-181">
           <mxGeometry y="104" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-189" value="+ groupId: long                   IM群组ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-181">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-216" value="+ streamName: string         推流名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-181">
           <mxGeometry y="130" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-202" value="+ streamName: string         推流名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-181">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-217" value="+ pushUrl: string                推流地址" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-181">
           <mxGeometry y="156" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-205" value="+ pushUrl: string                推流地址" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-181">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-218" value="+ pullUrl: string                  拉流地址" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-181">
           <mxGeometry y="182" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-192" value="+ serviceType: string          业务场景（多业务隔离）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-181">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-219" value="+ pushExpireTime:date     推流过期时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-181">
           <mxGeometry y="208" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-198" value="+ createTime: date             创建时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-181">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-205" value="+ pullExpireTime:date       拉流过期时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-181">
           <mxGeometry y="234" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-199" value="+ updateTime: date            结束时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-181">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-192" value="+ serviceType: string         业务场景（多业务隔离）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-181">
           <mxGeometry y="260" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_Sg_oN3kfxwypQQNNQwl-207" value="n...1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_Sg_oN3kfxwypQQNNQwl-163" target="_Sg_oN3kfxwypQQNNQwl-182">
@@ -44,83 +44,68 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-162" value="PrepareBroadcasts预播表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-830" y="-80" width="430" height="260" as="geometry" />
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-162" value="prepareBroadcasts直播预告" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-830" y="-80" width="430" height="182" as="geometry" />
         </mxCell>
         <mxCell id="_Sg_oN3kfxwypQQNNQwl-163" value="+ id: long" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-162">
           <mxGeometry y="26" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-164" value="+ prepareStartTime: date   预播开始时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-162">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-169" value="+ broadcastId: long             直播间id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-162">
           <mxGeometry y="52" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-165" value="+ prepareEndTime: date    预播结束时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-162">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-164" value="+ prepareStartTime: date   开始时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-162">
           <mxGeometry y="78" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-166" value="+ title: string                       预播主题" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-162">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-166" value="+ title: string                       主题" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-162">
           <mxGeometry y="104" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_Sg_oN3kfxwypQQNNQwl-167" value="+ userId: long                    用户id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-162">
           <mxGeometry y="130" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-168" value="+ status: int                        0过期或无效，1有效" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-162">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-168" value="+ status: int                        0取消，1有效，2逾期，3正常直播结束" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-162">
           <mxGeometry y="156" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-169" value="+ broadcastConfigId: long  直播间id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-162">
-          <mxGeometry y="182" width="430" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-179" value="+ createTime: date             创建时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-162">
-          <mxGeometry y="208" width="430" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-180" value="+ updateTime: date            更新时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-162">
-          <mxGeometry y="234" width="430" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-1" value="Broadcasts直播表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="-80" width="430" height="416" as="geometry" />
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-1" value="broadcasts直播" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-80" width="430" height="364" as="geometry" />
         </mxCell>
         <mxCell id="_Sg_oN3kfxwypQQNNQwl-2" value="+ id: long" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
           <mxGeometry y="26" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-203" value="+ broadcastConfigId: long  直播间id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-203" value="+ broadcastId: long                直播间id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
           <mxGeometry y="52" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-5" value="+ title: string                       预播主题" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-224" value="+ prepareBroadcastId: long  直播预告id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
           <mxGeometry y="78" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-42" value="+ userId: long                     userId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-5" value="+ title: string                          直播主题" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
           <mxGeometry y="104" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-215" value="+ status: int                        0无效，1正在直播，4直播结束" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-42" value="+ userId: long                      用户id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
           <mxGeometry y="130" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-6" value="+ favorCount: int                 点赞数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-215" value="+ status: int                        0无效，1有效" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
           <mxGeometry y="156" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-114" value="+ app: string                       推流域名【回调参数】" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-223" value="+ favorCount: int                 点赞数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
           <mxGeometry y="182" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-118" value="+ appName: string             推流路径【回调参数】" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-6" value="+ maxCount: int                 直播间最大观众数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
           <mxGeometry y="208" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-119" value="+ node: string                     直播接入点IP【回调参数】" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-226" value="+ pushDuration: string       直播时长" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
           <mxGeometry y="234" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-120" value="+ userIp: string                   用户推流IP【回调参数】" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-227" value="+ pushUrl: string                推流地址" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
           <mxGeometry y="260" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-121" value="+ streamParam: string       推流携带参数【回调参数】" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-123" value="+ pullUrl: string                  拉流地址" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
           <mxGeometry y="286" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-123" value="+ pushDuration: string       共计推流时长，单位毫秒【回调参数】" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-4" value="+ endTime: date                直播结束时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
           <mxGeometry y="312" width="430" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-4" value="+ endTime: date                结束时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-17" value="+ startTime: date               直播开始时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
           <mxGeometry y="338" width="430" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-17" value="+ createTime: date             创建时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
-          <mxGeometry y="364" width="430" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-18" value="+ updateTime: date            更新时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-1">
-          <mxGeometry y="390" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_Sg_oN3kfxwypQQNNQwl-208" value="1...n" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_Sg_oN3kfxwypQQNNQwl-2" target="_Sg_oN3kfxwypQQNNQwl-182">
           <mxGeometry x="-0.0769" y="11" relative="1" as="geometry">
@@ -129,59 +114,41 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-22" value="HistoryBroadcasts历史直播" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="840" y="-80" width="360" height="468" as="geometry" />
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-22" value="broadcastVideos直播视频" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="-80" width="360" height="312" as="geometry" />
         </mxCell>
         <mxCell id="_Sg_oN3kfxwypQQNNQwl-23" value="+ id: long" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
           <mxGeometry y="26" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-24" value="+ userId: long                       主播用户id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-225" value="+ userId: long                      用户id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
           <mxGeometry y="52" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-209" value="+ broadcastId: long              直播id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-209" value="+ broadcastInfoId: long        直播明细id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
           <mxGeometry y="78" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-206" value="+ broadcastConfigId: long    直播间id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-109" value="+ fileId: long                          文件id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
           <mxGeometry y="104" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-28" value="+ streamName: string           流名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-110" value="+ fileFormat: string               视频格式：flv，hls，mp4，aac" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
           <mxGeometry y="130" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-109" value="+ fileId: long                          文件id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-111" value="+ duration: int                       时长，单位秒           " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
           <mxGeometry y="156" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-110" value="+ fileFormat: string               视频格式：flv，hls，mp4，aac" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-112" value="+ fileSize: int                        大小，单位字节           " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
           <mxGeometry y="182" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-111" value="+ duration: int                       时长，单位秒           " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-38" value="+ coverUrl: string                  封面图url" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
           <mxGeometry y="208" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-112" value="+ fileSize: int                        大小，单位字节           " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-49" value="+ videoUrl: string                  视频url" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
           <mxGeometry y="234" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-113" value="+ streamParam: string         推流参数           " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-228" value="+ status: int                           0无效，1有效" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
           <mxGeometry y="260" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-38" value="+ coverUrl: string                  截图url" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-29" value="+ cnt: int                                播放次数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
           <mxGeometry y="286" width="360" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-49" value="+ videoUrl: string                  视频url" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
-          <mxGeometry y="312" width="360" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-29" value="+ status: int                           0无效，1有效" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
-          <mxGeometry y="338" width="360" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-154" value="+ startTime                            录播的开始时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
-          <mxGeometry y="364" width="360" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-155" value="+ endTime                             录播的结束时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
-          <mxGeometry y="390" width="360" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-26" value="+ createTime: date                创建时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
-          <mxGeometry y="416" width="360" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-27" value="+ updateTime: date               更新时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-22">
-          <mxGeometry y="442" width="360" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_Sg_oN3kfxwypQQNNQwl-210" value="1...1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_Sg_oN3kfxwypQQNNQwl-23" target="_Sg_oN3kfxwypQQNNQwl-2">
           <mxGeometry relative="1" as="geometry">
@@ -189,68 +156,30 @@
             <mxPoint x="590" y="-120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-102" value="SubscribePrepareBroadcasts预播关注表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-785" y="320" width="340" height="182" as="geometry" />
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-102" value="subscribePrepareBroadcasts直播预告关注" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-785" y="320" width="340" height="130" as="geometry" />
         </mxCell>
         <mxCell id="_Sg_oN3kfxwypQQNNQwl-103" value="+ id: long" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-102">
           <mxGeometry y="26" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-104" value="+ prepareBroadcastId: long            预播id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-102">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-104" value="+ prepareBroadcastId: long            直播预告id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-102">
           <mxGeometry y="52" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_Sg_oN3kfxwypQQNNQwl-105" value="+ userId: long                                 用户id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-102">
           <mxGeometry y="78" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-106" value="+ status: int                                    0无效，1关注，2取关" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-102">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-106" value="+ status: int                                   1关注，2取关" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-102">
           <mxGeometry y="104" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-107" value="+ createTime: date                        创建时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-102">
-          <mxGeometry y="130" width="340" height="26" as="geometry" />
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-212" value="1&lt;br&gt;:&lt;br&gt;n" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="_Sg_oN3kfxwypQQNNQwl-102" target="_Sg_oN3kfxwypQQNNQwl-168">
+          <mxGeometry x="-0.2785" y="1" relative="1" as="geometry">
+            <mxPoint x="-675" y="270" as="sourcePoint" />
+            <mxPoint x="-640" y="190" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-108" value="+ updateTime: date                       更新时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-102">
-          <mxGeometry y="156" width="340" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-10" value="SubscribeBroadcasts直播间关注表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="320" width="290" height="182" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-11" value="+ id: long" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-10">
-          <mxGeometry y="26" width="290" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-16" value="+ broadcastConfigId: long      直播间id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-10">
-          <mxGeometry y="52" width="290" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-47" value="+ userId: long                         用户id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-10">
-          <mxGeometry y="78" width="290" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-12" value="+ status: int                            0无效，1关注，2取关" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-10">
-          <mxGeometry y="104" width="290" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-13" value="+ createTime: date                创建时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-10">
-          <mxGeometry y="130" width="290" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-21" value="+ updateTime: date               更新时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-10">
-          <mxGeometry y="156" width="290" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-53" value="Gifts礼物" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-185" y="620" width="240" height="156" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-54" value="+ id: long" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-53">
-          <mxGeometry y="26" width="240" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-60" value="+ type: string         礼物类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-53">
-          <mxGeometry y="52" width="240" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-57" value="+ status: int           0无效，1有效" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-53">
-          <mxGeometry y="78" width="240" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-58" value="+ createTime: date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-53">
-          <mxGeometry y="104" width="240" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-59" value="+ updateTime: date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-53">
-          <mxGeometry y="130" width="240" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-61" value="Giftlogs礼物日志" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="555" width="240" height="286" as="geometry" />
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-61" value="Giftlogs礼物记录" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="310" width="240" height="234" as="geometry" />
         </mxCell>
         <mxCell id="_Sg_oN3kfxwypQQNNQwl-62" value="+ id: long" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-61">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
@@ -258,53 +187,23 @@
         <mxCell id="_Sg_oN3kfxwypQQNNQwl-63" value="+ giftId: long                          礼物id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-61">
           <mxGeometry y="52" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-64" value="+ count: int                            礼物数量" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-61">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-229" value="+ giftType: string                   礼物Type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-61">
           <mxGeometry y="78" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-68" value="+ anchorUserId: long             主播id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-61">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-64" value="+ count: int                            礼物数量" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-61">
           <mxGeometry y="104" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-69" value="+ rewardUserId: long            打赏者userId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-61">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-68" value="+ anchorUserId: long             主播id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-61">
           <mxGeometry y="130" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-70" value="+ broadcastConfigId：long    直播间id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-61">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-69" value="+ rewardUserId: long            打赏者userId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-61">
           <mxGeometry y="156" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-157" value="+ broadcastId：long              直播id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-61">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-70" value="+ broadcastId：long              直播间id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-61">
           <mxGeometry y="182" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-65" value="+ status: int                           0无效，1有效" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-61">
+        <mxCell id="_Sg_oN3kfxwypQQNNQwl-157" value="+ broadcastInfoId：long        直播明细id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-61">
           <mxGeometry y="208" width="240" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-66" value="+ createTime: date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-61">
-          <mxGeometry y="234" width="240" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-67" value="+ updateTime: date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_Sg_oN3kfxwypQQNNQwl-61">
-          <mxGeometry y="260" width="240" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-90" value="BroadcastMsgs直播弹幕（使用IM的群组消息表）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-220" y="860" width="310" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-212" value="1&lt;br&gt;:&lt;br&gt;n" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.497;entryY=1.053;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_Sg_oN3kfxwypQQNNQwl-102" target="_Sg_oN3kfxwypQQNNQwl-180">
-          <mxGeometry x="-0.2785" y="1" relative="1" as="geometry">
-            <mxPoint x="-675" y="270" as="sourcePoint" />
-            <mxPoint x="-612" y="190" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-213" value="1&lt;br&gt;:&lt;br&gt;n" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.497;entryY=1.053;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry x="-0.2785" y="1" relative="1" as="geometry">
-            <mxPoint x="-66" y="320" as="sourcePoint" />
-            <mxPoint x="-65.63999999999999" y="205.99799999999993" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_Sg_oN3kfxwypQQNNQwl-214" value="1...n" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.008;exitY=0.025;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_Sg_oN3kfxwypQQNNQwl-68" target="_Sg_oN3kfxwypQQNNQwl-54">
-          <mxGeometry x="-0.049" y="11" relative="1" as="geometry">
-            <mxPoint x="120" y="734" as="sourcePoint" />
-            <mxPoint x="120.36000000000013" y="619.998" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
